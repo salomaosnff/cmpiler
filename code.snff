@@ -1,0 +1,11 @@
+class A {}
+class B {}
+class C {}
+
+type D = A | B
+
+func foo(x: D) {}
+
+let x: C
+
+foo(x)
